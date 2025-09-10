@@ -1,0 +1,112 @@
+{
+  "HERO": {
+    "title": "Nuestras Cabañas",
+    "subtitle": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores.",
+    "label": ""
+  },
+  "ROOMS": [
+    {
+      "name": "Cabaña 1",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    },
+    {
+      "name": "Cabaña 2",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    },
+    {
+      "name": "Cabaña 3",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    },
+    {
+      "name": "Cabaña 4",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    },
+    {
+      "name": "Cabaña 5",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    },
+    {
+      "name": "Cabaña 6",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    },
+    {
+      "name": "Cabaña 7",
+      "description": "Cada cabaña está completamente equipada para tu comodidad, con espacios amplios y acogedores, ideales para parejas, familias o aventureros que buscan desconectar y disfrutar de la belleza de San Pedro.",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery, flaky, filled with almond paste",
+          "price": "$4.50",
+          "image": "/placeholder.svg?height=200&width=200"
+        }
+      ],
+      "image": "/images/hero.jpg"
+    }
+  ],
+  "SPECIAL_ITEMS": {
+    "title": "Special Orders & Catering",
+    "description": "Planning something special? We create custom cakes, pastry platters, and catering options for events of all sizes.",
+    "items": [
+      "Wedding cakes and dessert tables",
+      "Corporate catering and breakfast platters",
+      "Birthday and celebration cakes",
+      "Holiday specialty items",
+      "Bulk orders for events"
+    ],
+    "note": "Please place special orders at least 48 hours in advance. Contact us to discuss your needs!"
+  }
+}
