@@ -44,7 +44,7 @@ const heroContent = {
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid9DqwJchjpVO8Wb8Ti7yNmhZ3FgGdY6beN0_TZXv74743VupSEuVohnvgZHRL_ZWkpK2TMYJpwXIZhdj1LAgSULw-v5N7rwCL8xQSkBEM3rPKImwks1_timS-TLArvTHZKjDq1qrEz46h/s1600/PredioServicios.jpg",
   },
   HIGHLIGHTS: {
-    title: "Nuestras Servicios",
+    title: "Nuestros Servicios",
     description:
       "Contamos con 7 cabañas con capacidad de 2 a 7 personas, totalmente equipadas. Todas las cabañas cuentan con un área de expansión externa con galería para cada unidad para disfrutar de la vista y del aire libre.",
     image: "/images/logo.png",
