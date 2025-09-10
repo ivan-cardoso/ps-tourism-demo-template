@@ -1,11 +1,6 @@
 import type React from "react";
 import type { Metadata } from "next";
-import {
-  Inter,
-  Outfit,
-  Playfair_Display,
-  Cormorant_Garamond,
-} from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import settings from "@/content/settings.json";
 
@@ -19,17 +14,6 @@ const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
   display: "swap",
-});
-
-const playfair_display = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  display: "swap",
-});
-
-const cormorant_garamond = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -87,7 +71,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${outfit.variable} ${playfair_display.variable} ${cormorant_garamond.variable} font-body antialiased`}
+        className={`${inter.variable} ${outfit.variable} font-body antialiased`}
         // className={`font-body antialiased`}
       >
         {children}
