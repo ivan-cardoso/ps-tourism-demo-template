@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: settings.business.name,
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/hero.jpg",
         width: 1200,
         height: 630,
         alt: settings.business.name,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: settings.seo.title,
     description: settings.seo.description,
-    images: ["/images/og-image.png"],
+    images: ["/images/hero.jpg"],
   },
   robots: {
     index: true,
