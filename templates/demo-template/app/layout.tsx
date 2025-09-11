@@ -35,20 +35,20 @@ export const metadata: Metadata = {
     siteName: settings.business.name,
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/hero.jpg",
         width: 1200,
         height: 630,
         alt: settings.business.name,
       },
     ],
-    locale: "en_US",
+    locale: "es",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: settings.seo.title,
     description: settings.seo.description,
-    images: ["/images/og-image.png"],
+    images: ["/images/hero.jpg"],
   },
   robots: {
     index: true,
@@ -69,7 +69,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="es" className="scroll-smooth">
       <body
         className={`${inter.variable} ${outfit.variable}  font-body antialiased`}
         // className={`font-body antialiased`}

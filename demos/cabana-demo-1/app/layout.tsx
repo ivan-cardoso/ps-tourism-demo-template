@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         alt: settings.business.name,
       },
     ],
-    locale: "en_US",
+    locale: "es",
     type: "website",
   },
   twitter: {
@@ -69,7 +69,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="es" className="scroll-smooth">
       <body
         className={`${inter.variable} ${outfit.variable} font-body antialiased`}
         // className={`font-body antialiased`}
