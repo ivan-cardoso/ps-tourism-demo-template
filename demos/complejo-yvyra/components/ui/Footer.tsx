@@ -106,7 +106,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+        <div className="border-t border-neutral mt-8 pt-8 text-center">
           <p className="text-white/80 text-sm">
             © {currentYear} {settings.business.name}.
           </p>

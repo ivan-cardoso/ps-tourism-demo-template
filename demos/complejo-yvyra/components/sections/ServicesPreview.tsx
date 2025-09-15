@@ -6,7 +6,7 @@ import SectionTitle from "@/components/ui/SectionTitle";
 import AnimatedElement from "@/components/ui/AnimatedElement";
 import homeContent from "@/content/home";
 import Link from "next/link";
-import { BedDouble, Car } from "lucide-react";
+import { BedDouble, Car, Droplet, Tv, Wifi } from "lucide-react";
 
 export default function ServicesPreview() {
   const { SERVICES } = homeContent;
@@ -14,6 +14,9 @@ export default function ServicesPreview() {
   const icons = {
     "bed-double": BedDouble,
     car: Car,
+    tv: Tv,
+    wifi: Wifi,
+    droplet: Droplet,
   };
 
   return (
@@ -46,7 +49,7 @@ export default function ServicesPreview() {
                     {item.name}
                   </h3>
 
-                  <p className=" text-background w-fit capitalize bg-secondary/80 px-3 py-1 rounded-md">
+                  <p className=" text-background w-fit capitalize bg-secondary/80 px-3 py-1 rounded-full">
                     {item.feature}
                   </p>
 

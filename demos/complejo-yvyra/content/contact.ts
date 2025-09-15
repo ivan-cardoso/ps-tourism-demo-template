@@ -13,7 +13,7 @@ export const contactContent = {
   CONTACT_DETAILS: {
     title: "Vení a nuestras cabañas",
     description:
-      "Te asesoramos para que tengas la mejor experiencia en San Pedro",
+      "Te asesoramos para que tengas la mejor experiencia en nuestras cabañas",
     details: [
       {
         type: "address",

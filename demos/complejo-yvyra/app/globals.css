@@ -39,9 +39,8 @@ Neutral/dark text: #2A2D34 (azul muy oscuro, elegante)
 
 Secondary detail: #3C6E71 (verde azulado río)*/
 
-  --font-family-heading: var(--font-outfit), ui-sans-serif, system-ui,
-    sans-serif;
-  --font-family-body: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-family-heading: var(--font-arvo), ui-sans-serif, system-ui, sans-serif;
+  --font-family-body: var(--font-lato), ui-sans-serif, system-ui, sans-serif;
   --font-family-accent: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
   --animate-fade-in: fade-in 0.5s ease-in-out;
@@ -331,11 +330,11 @@ Secondary detail: #3C6E71 (verde azulado río)*/
   }
 
   .font-heading {
-    font-family: var(--font-outfit);
+    font-family: var(--font-arvo);
   }
 
   .font-body {
-    font-family: var(--font-outfit);
+    font-family: var(--font-lato);
   }
 
   .font-accent {

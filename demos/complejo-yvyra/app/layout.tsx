@@ -1,19 +1,21 @@
 import type React from "react";
 import type { Metadata } from "next";
-import { Inter, Outfit } from "next/font/google";
+import { Lato, Arvo } from "next/font/google";
 import "./globals.css";
 import settings from "@/content/settings.json";
 
-const inter = Inter({
+const arvo = Arvo({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-arvo",
   display: "swap",
+  weight: ["400"],
 });
 
-const outfit = Outfit({
+const lato = Lato({
   subsets: ["latin"],
-  variable: "--font-outfit",
+  variable: "--font-lato",
   display: "swap",
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -71,7 +73,7 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${outfit.variable}  font-body antialiased`}
+        className={`${arvo.variable} ${lato.variable}  font-body antialiased`}
         // className={`font-body antialiased`}
       >
         {children}

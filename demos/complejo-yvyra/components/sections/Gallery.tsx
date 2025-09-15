@@ -9,6 +9,7 @@ import homeContent from "@/content/home";
 import Link from "next/link";
 import Card from "../ui/Card";
 import { ImageIcon } from "lucide-react";
+import Button from "../ui/Button";
 
 export default function Gallery() {
   const { GALLERY } = homeContent;
@@ -47,9 +48,14 @@ export default function Gallery() {
                 <h2 className="font-heading mb-4 leading-tight text-2xl lg:text-4xl font-heading font-bold text-background">
                   {GALLERY.title}
                 </h2>
-                <p className="md:text-lg  opacity-90 leading-relaxed">
+                <p className="md:text-lg  opacity-90 leading-relaxed mb-4">
                   {GALLERY.description}
                 </p>
+                <Link href={GALLERY.cta.href} className="w-fit">
+                  <Button variant="accent" size="md">
+                    {GALLERY.cta.text}
+                  </Button>
+                </Link>
               </div>
             </AnimatedElement>
 
@@ -95,7 +101,7 @@ export default function Gallery() {
               </AnimatedElement>
             ))}
 
-            <Link href={GALLERY.cta.href}>
+            {/* <Link href={GALLERY.cta.href}>
               <Card
                 hover
                 className=" flex flex-col items-center justify-center h-full "
@@ -110,7 +116,7 @@ export default function Gallery() {
                   {GALLERY.cta.description}
                 </p>
               </Card>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </SectionWrapper>

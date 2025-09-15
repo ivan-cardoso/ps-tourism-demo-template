@@ -2,131 +2,98 @@ const heroContent = {
   HERO: {
     title: (
       <>
-        Viví días inolvidables <br /> en San Pedro
+        Desconectá y descansá <br /> frente al Paraná
       </>
     ),
     subtitle:
-      "Descansá frente al río, rodeado de verde y con la tranquilidad que solo San Pedro puede ofrecer.",
+      "A solo 2 hs de Buenos Aires y a 1 de Rosario, encontrá en Ramallo el lugar ideal para recargar energías junto al río.",
     cta: {
-      primary: {
-        text: "Hablanos Ahora",
-        href: "/contacto",
-      },
-      secondary: {
-        text: "Ver Cabañas",
-        href: "/",
-      },
+      primary: { text: "Hablanos Ahora", href: "/contacto" },
+      secondary: { text: "Ver Cabañas", href: "/" },
     },
     label: "",
   },
   OVERVIEW: {
-    title: "Cabañas junto al río, rodeadas de naturaleza",
+    title: "Un complejo pensado para tu descanso",
     subtitle: (
       <>
-        <strong>Cabañas de la Ribera</strong> es un emprendimiento familiar
-        pensado para quienes buscan desconectar y disfrutar del aire libre,
-        <strong> a solo unas horas de Capital Federal.</strong>
+        <strong>Cabañas Yvyra</strong> es un espacio único frente al río Paraná,
+        con 17 cabañas equipadas para que disfrutes en pareja, en familia o con
+        amigos. Todo rodeado de naturaleza y tranquilidad,
+        <strong> a pasos del agua.</strong>
       </>
     ),
     description: (
       <>
-        Ubicadas en un <strong>predio de 6.000 m²</strong>, dentro de un Área de
-        Reserva Natural Protegida, nuestras cabañas están rodeadas de barrancas
-        y paisajes únicos, a solo 6 km al norte de la ciudad de{" "}
-        <strong>San Pedro, Buenos Aires.</strong>
+        Nuestro predio cuenta con pileta, playa, parrillas y actividades al aire
+        libre. Una propuesta para quienes buscan combinar relax y comodidad,
+        cerca de casa pero lejos de la rutina. Consultanos por disponibilidad.{" "}
+        <strong>¡Te esperamos!</strong>
       </>
     ),
-    image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid9DqwJchjpVO8Wb8Ti7yNmhZ3FgGdY6beN0_TZXv74743VupSEuVohnvgZHRL_ZWkpK2TMYJpwXIZhdj1LAgSULw-v5N7rwCL8xQSkBEM3rPKImwks1_timS-TLArvTHZKjDq1qrEz46h/s1600/PredioServicios.jpg",
+    image: "/images/about.jpg",
   },
   HIGHLIGHTS: {
-    title: "Nuestros Servicios",
+    title: "Servicios para disfrutar",
     description:
-      "Ofrecemos 7 cabañas equipadas para 2 a 7 personas, todas con galería privada y espacio al aire libre para disfrutar de la vista al río y el sonido de la naturaleza.",
+      "Contamos con 17 cabañas totalmente equipadas. Espacio verdes y todas las comodidades para que tengas lo que necesitás y descanses sin preocupaciones.",
     image: "/images/logo.png",
     cta: {
-      primary: {
-        text: "Ver Cabañas",
-        href: "/",
-      },
+      primary: { text: "Ver Cabañas", href: "/" },
     },
   },
   SERVICES: {
     title: "Nuestras Cabañas",
     description:
-      "Cada cabaña fue pensada para que disfrutes tu estadía al máximo: desde espacios familiares amplios hasta más íntimos. Siempre con el confort necesario para sentirte como en casa.",
-    cta: {
-      text: "Ver todas las Cabañas",
-      href: "/",
-    },
+      "Tenemos opciones para todos: desde cabañas íntimas para dos, hasta espacios familiares amplios para compartir con amigos o en grupo.",
+    cta: { text: "Ver todas las Cabañas", href: "/" },
     label: "",
     items: [
       {
-        name: "Cabaña Roja",
+        name: "Cabaña Familiar",
         description: [
-          {
-            icon: "bed-double",
-            text: "1 Queen - 3 Individual",
-          },
-          {
-            icon: "car",
-            text: "Cubierto",
-          },
+          { icon: "bed-double", text: "1 Queen - 3 Individual" },
+          { icon: "car", text: "Cochera cubierta" },
+          { icon: "tv", text: "TV por cable" },
+          { icon: "wifi", text: "Wi-Fi" },
+          { icon: "droplet", text: "Aire acondicionado" },
         ],
-        image:
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgczXlwgiYmsWfR-Ck968MMX2D8e-9aiPk28Zo6V22JXv__ALBTxgeEfJ9PEvbMAnXQFiMqRrs_alvPh5R3GMrRv98xqU6zFGMIo1S_YEIsUBpnt2iXm_msMYttiKufhIRd9FtjxldHz3eK/s1600/P1200579.JPG?height=200&width=200",
+        image: "/images/cabana1.jpg",
         feature: "5 Huéspedes",
-        cta: {
-          text: "Ver Cabaña",
-          href: "/",
-        },
+        cta: { text: "Ver Cabaña", href: "/" },
       },
       {
-        name: "Cabaña Amarilla",
+        name: "Cabaña para Parejas",
         description: [
-          {
-            icon: "bed-double",
-            text: "1 Queen - 3 Individual",
-          },
-          {
-            icon: "car",
-            text: "Cubierto",
-          },
+          { icon: "bed-double", text: "1 Queen - 3 Individual" },
+          { icon: "car", text: "Cochera cubierta" },
+          { icon: "tv", text: "TV por cable" },
+          { icon: "wifi", text: "Wi-Fi" },
+          { icon: "droplet", text: "Aire acondicionado" },
         ],
-        image:
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoijI6XNaEAp5elswTx7uFbJtpL17VYKtyMdVOI0APQ33AM3KjqwcU11r5QrwKSBHoxJcDQh-uuoUWneKJbaTg5AiCR7fI7oSULXIkkocs1dRLrMchWfvyUXYE0nUT47VxTlL6lD2Ztipy/s1600/P1190232.jpg?height=200&width=200",
-        feature: "5 Huéspedes",
-        cta: {
-          text: "Ver Cabaña",
-          href: "/",
-        },
+        image: "/images/cabana1.jpg",
+        feature: "2 Huéspedes",
+        cta: { text: "Ver Cabaña", href: "/" },
       },
       {
-        name: "Cabaña Verde",
+        name: "Cabaña Grupo",
         description: [
-          {
-            icon: "bed-double",
-            text: "1 Queen - 1 Individual - 2 Futones",
-          },
-          {
-            icon: "car",
-            text: "Cubierto",
-          },
+          { icon: "bed-double", text: "1 Queen - 3 Individual" },
+          { icon: "car", text: "Cochera cubierta" },
+          { icon: "tv", text: "TV por cable" },
+          { icon: "wifi", text: "Wi-Fi" },
+          { icon: "droplet", text: "Aire acondicionado" },
         ],
-        image:
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFsHnCH4BVEY9cHdHjWKLCt65RwCBP8kKQ1wCGyyCbnr2g-JLau1-GbjCc7kzSuGccq8zfbVoNXI9XwR1TMxHxcbD9RehyphenhyphenpDiLQqR8GAOBRnuEgYuIH5gWFqaXUbRJ0yBqQNIQHiO4YRm0/s1600/P1190719.jpg?height=200&width=200",
+        image: "/images/cabana1.jpg",
         feature: "7 Huéspedes",
-        cta: {
-          text: "Ver Cabaña",
-          href: "/",
-        },
+        cta: { text: "Ver Cabaña", href: "/" },
       },
     ],
   },
   GALLERY: {
-    title: "Un entorno para relajarse",
+    title: "Viví la experiencia Yvyra",
     description:
-      "Descubrí en imágenes la tranquilidad del predio, sus rincones verdes y las cabañas diseñadas para disfrutar cada momento.",
+      "Recorré en imágenes nuestro complejo: las cabañas, los espacios verdes y el río Paraná siempre presente.",
     cta: {
       text: "Ver Galería",
       href: "/",
@@ -134,70 +101,67 @@ const heroContent = {
     },
     images: [
       {
-        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgczXlwgiYmsWfR-Ck968MMX2D8e-9aiPk28Zo6V22JXv__ALBTxgeEfJ9PEvbMAnXQFiMqRrs_alvPh5R3GMrRv98xqU6zFGMIo1S_YEIsUBpnt2iXm_msMYttiKufhIRd9FtjxldHz3eK/s1600/P1200579.JPG?height=200&width=200",
-        alt: "Cabaña de la Ribera 1",
+        src: "/images/gallery1.jpg",
+        alt: "Cabaña Yvyra 1",
       },
       {
-        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoijI6XNaEAp5elswTx7uFbJtpL17VYKtyMdVOI0APQ33AM3KjqwcU11r5QrwKSBHoxJcDQh-uuoUWneKJbaTg5AiCR7fI7oSULXIkkocs1dRLrMchWfvyUXYE0nUT47VxTlL6lD2Ztipy/s1600/P1190232.jpg?height=200&width=200",
-        alt: "Cabaña de la Ribera 2",
+        src: "/images/gallery2.jpg",
+        alt: "Cabaña Yvyra 2",
       },
       {
-        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFsHnCH4BVEY9cHdHjWKLCt65RwCBP8kKQ1wCGyyCbnr2g-JLau1-GbjCc7kzSuGccq8zfbVoNXI9XwR1TMxHxcbD9RehyphenhyphenpDiLQqR8GAOBRnuEgYuIH5gWFqaXUbRJ0yBqQNIQHiO4YRm0/s1600/P1190719.jpg?height=200&width=200",
-        alt: "Cabaña de la Ribera 3",
+        src: "/images/gallery3.jpg",
+        alt: "Cabaña Yvyra 3",
       },
       {
-        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC9reRXwnj1mqM6Nl3WxGNU7VeH9jWLVYOwyfWJPiwujxqJpgJnBM8tiTU5vCYd9xcLwAY0j8OyoK1OdIMUAroz9fdYiG8LmMWeO63Oy70jsqX7S0X-p-8_n7GdQsY8-vtAMSGFD986icg/s1600/P1190740.JPG?height=200&width=200",
-        alt: "Cabaña de la Ribera 4",
+        src: "/images/gallery4.jpg",
+        alt: "Cabaña Yvyra 4",
       },
       {
-        src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnnWtYumF1UgeIjr_jvBs_GBJBhi7Wb9PciDNdrcqam7vIkoZmbtfUDjh-HDoJUlB68ZuWOgLMuR5IwZXCumKXZR2zu3fT3QYRhNChMRS-sQo3t5Xuw_Z6BfPMkY1isxPgiUQtbeIyuws_/s1600/P1230691.jpg?height=200&width=200",
-        alt: "Cabaña de la Ribera 5",
+        src: "/images/gallery5.jpg",
+        alt: "Cabaña Yvyra 5",
+      },
+      {
+        src: "/images/gallery6.jpg",
+        alt: "Cabaña Yvyra 6",
       },
     ],
   },
   TESTIMONIALS: {
-    title: "Nuestros Visitantes",
+    title: "Lo que dicen nuestros visitantes",
     subtitle:
-      "Lo que dicen quienes ya nos eligieron para desconectar y disfrutar de San Pedro.",
-    cta: {
-      text: "Mirá mas testimonios",
-      href: "/",
-    },
+      "Historias de quienes ya eligieron Yvyra para sus días de descanso en Ramallo.",
+    cta: { text: "Mirá más testimonios", href: "/" },
     items: [
       {
-        text: "El lugar excelente, bien pensado con muchos detalles q hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre atentos.",
-        author: "Esteban P.",
-        location: "Capital Federal",
-        authorAvatar: "/placeholder-user.jpg",
-        rating: 5,
-      },
-      {
-        text: "El lugar excelente, bien pensado con muchos detalles q hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre atentos.",
-        author: "Susana L.",
+        text: "Hermoso lugar frente al río. Pasamos un finde en familia y la atención fue excelente.",
+        author: "Luciana F.",
         location: "Rosario",
         authorAvatar: "/placeholder-user.jpg",
         rating: 5,
       },
       {
-        text: "El lugar excelente, bien pensado con muchos detalles q hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre atentos.",
-        author: "Mario J.",
-        location: "Vicente Lopez",
+        text: "Las cabañas muy cómodas y bien equipadas. Ideal para descansar y disfrutar de la naturaleza.",
+        author: "Carlos M.",
+        location: "San Nicolás",
+        authorAvatar: "/placeholder-user.jpg",
+        rating: 5,
+      },
+      {
+        text: "Un lugar perfecto para desconectarse. La pileta y la playa privada son un plus increíble.",
+        author: "Mariana G.",
+        location: "Capital Federal",
         authorAvatar: "/placeholder-user.jpg",
         rating: 5,
       },
     ],
   },
-
   FINAL_CTA: {
-    title: "Tomate un descanso y vení a visitarnos",
+    title: "Tu descanso te espera en Yvyra",
     description:
-      "Regalate unos días de calma frente al río, rodeado de naturaleza y comodidad. Un espacio pensado para que disfrutes sin preocupaciones.",
+      "Escapate unos días, respirá aire puro y viví frente al Paraná. Un plan distinto para disfrutar en pareja, en familia o con amigos.",
     image: "/images/cta.jpeg",
     cta: {
-      primary: {
-        text: "Reservar Ahora",
-        href: "/contacto",
-      },
+      primary: { text: "Reservar Ahora", href: "/contacto" },
     },
   },
 };

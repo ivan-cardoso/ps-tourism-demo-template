@@ -66,17 +66,9 @@ export default function Navbar({ variant = "default" }: NavbarProps) {
               alt={`${settings.business.name} Logo`}
               width={100}
               height={100}
-              className="w-full h-12"
+              className="w-full h-16"
               priority
             />
-            {/* <span
-              className={cn(
-                "text-xl lg:text-2xl font-heading font-semibold  transition-colors",
-                textClasses[variant]
-              )}
-            >
-              Cabañas de la Ribera
-            </span> */}
           </Link>
 
           {/* Desktop Navigation */}

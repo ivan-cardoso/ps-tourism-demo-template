@@ -10,18 +10,17 @@ import {
   Wifi,
   Wind,
   Thermometer,
-  Coffee,
-  UtensilsCrossed,
   Car,
   BedDouble,
-  // Fridge,
-  Microwave,
   Tv,
-  Music,
   Utensils,
   Flame,
   Droplet,
-  Fan,
+  Refrigerator,
+  Waves,
+  Umbrella,
+  Trees,
+  Fish,
 } from "lucide-react";
 import SectionTitle from "../ui/SectionTitle";
 import Link from "next/link";
@@ -31,18 +30,17 @@ const highlights = [
   { icon: Wifi, label: "Wi-Fi" },
   { icon: Wind, label: "Aire Acondicionado" },
   { icon: Thermometer, label: "Calefacción" },
-  { icon: Coffee, label: "Desayuno Incluido" },
-  { icon: UtensilsCrossed, label: "Parrilla Privada" },
-  { icon: Car, label: "Techo Cubierto (*)" },
+  { icon: Car, label: "Cochera" },
   { icon: BedDouble, label: "Ropa de Cama" },
-  { icon: Microwave, label: "Refrigerador" },
-  { icon: Tv, label: "TV" },
-  { icon: Music, label: "Reproductor de Audio" },
+  { icon: Refrigerator, label: "Heladera" },
+  { icon: Tv, label: "TV por cable" },
   { icon: Utensils, label: "Vajilla Completa" },
-  { icon: Flame, label: "Anafe" },
+  { icon: Flame, label: "Parrilla" },
   { icon: Droplet, label: "Agua Caliente" },
-  { icon: Fan, label: "Secador de Pelo" },
-  { icon: Microwave, label: "Microondas" },
+  { icon: Waves, label: "Piscina" },
+  { icon: Umbrella, label: "Playa" },
+  { icon: Trees, label: "Actividades Aire Libre" },
+  { icon: Fish, label: "Pesca" },
 ];
 
 export default function Highlights() {
@@ -63,7 +61,7 @@ export default function Highlights() {
       } else {
         emblaApi.scrollTo(0);
       }
-      raf = requestAnimationFrame(() => setTimeout(autoScroll, 2000)); // smooth auto-scroll every 2.5s
+      raf = requestAnimationFrame(() => setTimeout(autoScroll, 2000));
     };
 
     autoScroll();
@@ -88,7 +86,7 @@ export default function Highlights() {
               return (
                 <div
                   key={i}
-                  className="flex-[0_0_33%] sm:flex-[0_0_33%] md:flex-[0_0_20%] lg:flex-[0_0_14%] flex flex-col items-center justify-center text-center p-3 "
+                  className="flex-[0_0_33%] sm:flex-[0_0_33%] md:flex-[0_0_20%] lg:flex-[0_0_14%] flex flex-col items-center justify-center text-center p-3 min-w-32"
                 >
                   <div className="flex flex-col bg-secondary/10 items-center w-full h-full p-3 rounded-md shadow-sm overflow-hidden">
                     <Icon className="w-8 h-8 md:w-10 md:h-10 stroke-[1.5px] text-secondary mb-3" />
