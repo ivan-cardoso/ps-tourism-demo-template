@@ -1,0 +1,81 @@
+{
+  "business": {
+    "name": "Complejo Yvyra",
+    "tagline": "Te mereces unos días de descanso. Visitá Ramallo.",
+    "description": "Te mereces un descanso. Vení a visitarnos",
+    "address": {
+      "street": "24 de Octubre y el Río",
+      "city": "Ramallo",
+      "state": "BS AS",
+      "zip": "2915",
+      "full": " 24 de Octubre y el Río, Ramallo, Buenos Aires."
+    },
+    "contact": {
+      "phone": "(3407) 58-2513",
+      "email": "contacto@complejoyvyra.com",
+      "website": "https://complejoyvyra.com"
+    },
+    "hours": {
+      "weekdays": "Lunes - Viernes: 08 AM - 05 PM",
+      "weekends": "Sábado - Domingo: 08 AM - 12 PM",
+      "detailed": {
+        "monday": "08:00 AM - 05:00 PM",
+        "tuesday": "08:00 AM - 05:00 PM",
+        "wednesday": "08:00 AM - 05:00 PM",
+        "thursday": "08:00 AM - 05:00 PM",
+        "friday": "08:00 AM - 05:00 PM",
+        "saturday": "09:00 AM - 12:00 PM",
+        "sunday": "09:00 AM - 12:00 PM"
+      }
+    },
+    "established": "2020",
+    "features": [
+      "Free parking available",
+      "Custom orders accepted",
+      "Catering services",
+      "Gluten-free options"
+    ]
+  },
+  "social": {
+    "instagram": {
+      "handle": "@complejoyvyra",
+      "url": "https://instagram.com/complejoyvyra"
+    },
+    "facebook": {
+      "handle": "/Cabañas del Yvyra",
+      "url": "https://facebook.com/cabanas.delyvyra"
+    },
+    "googleReviews": {
+      "url": "https://g.page/maddies-bakery",
+      "rating": "4.9",
+      "reviewCount": "200+"
+    },
+    "tripadvisor": {
+      "handle": "Cabañas del Yvyra",
+      "url": "https://tripadvisor.com.ar/"
+    }
+  },
+  "location": {
+    "coordinates": {
+      "lat": "26.5629",
+      "lng": "-81.9495"
+    },
+    "map": {
+      "embedId": "pb=!1m18!1m12!1m3!1d3584.123!2d-81.123!3d26.123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1",
+      "directionsUrl": "https://maps.google.com/maps?daddr=123+Main+Street,+Cape+Coral,+FL+33904"
+    },
+    "neighborhood": "Ramallo, Buenos Aires",
+    "landmarks": [""]
+  },
+  "seo": {
+    "title": "Complejo Yvyra | Ramallo",
+    "description": "Tomate un descando en nuestras cabañas. Veni a visitarnos",
+    "keywords": "Veni a visitarnos"
+  },
+  "navigationItems": [
+    { "href": "/", "label": "Inicio", "isPage": true },
+    { "href": "/", "label": "Cabañas", "isPage": true },
+    { "href": "/", "label": "Galería", "isPage": true },
+    { "href": "/", "label": "Reviews", "isPage": true }
+  ]
+}
