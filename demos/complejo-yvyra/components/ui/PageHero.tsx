@@ -19,11 +19,11 @@ export function PageHero({
   background = "soft",
 }: PageHeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-40 flex items-center overflow-hidden">
       {/* Leaf Background Illustrations */}
       {/* <div className="absolute inset-0 brightness-50 opacity-30  bg-[url('/patterns/leaves-pattern2.png')] bg-no-repeat bg-center bg-contain md:bg-bottom md:bg-cover"></div> */}
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-secondary/55 via-secondary/65 to-secondary/80 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-dark/35 via-dark/50 to-dark/65 z-10" />
 
       {/* Background Image */}
       <div className="absolute inset-0">
