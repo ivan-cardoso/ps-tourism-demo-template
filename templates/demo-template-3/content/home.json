@@ -1,0 +1,224 @@
+{
+  "HERO": {
+    "title": "Bienvenido a Tu Refugio Natural",
+    "highlightedText": "Refugio Natural",
+    "subtitle": "Nuestras cabañas son un escape sereno diseñado para ofrecerte un retiro pacífico del ajetreo y bullicio de la vida cotidiana.",
+    "cta": {
+      "primary": {
+        "text": "Reservar Ahora",
+        "href": "#contacto"
+      },
+      "secondary": {
+        "text": "Conocer Más",
+        "href": "#sobre-nosotros"
+      }
+    },
+    "label": "Vida Acogedora",
+    "stats": [
+      {
+        "number": "4.9★",
+        "label": "Google Reviews"
+      },
+      {
+        "number": "1.5k+",
+        "label": "Huéspedes Felices"
+      },
+      {
+        "number": "5★",
+        "label": "TripAdvisor"
+      },
+      {
+        "number": "15+",
+        "label": "Años de Experiencia"
+      }
+    ]
+  },
+  "ABOUT": {
+    "title": "Disfruta Tu Tiempo En Nuestras Acogedoras Y Espaciosas Áreas",
+    "highlightedText": "Espaciosas Áreas",
+    "subtitle": "Espacios de Vida",
+    "description": "Nuestras áreas de estar están diseñadas para la relajación y momentos de calidad con seres queridos. Espaciosas y acogedoras, estas áreas cuentan con muebles cómodos y una chimenea acogedora.",
+    "cta": {
+      "text": "Conocer Más",
+      "href": "#cabanas"
+    },
+    "features": [
+      {
+        "title": "Soporte 24/7",
+        "description": "Asistencia y soporte cuando lo necesites"
+      },
+      {
+        "title": "Desayuno",
+        "description": "Asistencia y soporte cuando lo necesites"
+      },
+      {
+        "title": "Lavandería",
+        "description": "Asistencia y soporte cuando lo necesites"
+      }
+    ]
+  },
+  "HIGHLIGHTS": {
+    "title": "Mantente Tranquilo, Te Tenemos Cubierto",
+    "highlightedText": "Te Tenemos Cubierto",
+    "description": "Escapa del ruido y relájate en nuestras cabañas cuidadosamente diseñadas donde la comodidad se encuentra con la naturaleza en perfecta armonía",
+    "cta": {
+      "text": "Conocer Más",
+      "href": "#cabanas"
+    },
+    "items": [
+      {
+        "icon": "Clock",
+        "title": "Servicios 24/7",
+        "description": "En cualquier momento que nos necesites, estamos a solo una llamada de distancia día o noche."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Desayuno",
+        "description": "Comienza tu día con una comida fresca y abundante hecha con amor."
+      },
+      {
+        "icon": "Shirt",
+        "title": "Lavandería",
+        "description": "Mantente fresco todos los días con nuestro conveniente servicio de lavandería."
+      },
+      {
+        "icon": "Wifi",
+        "title": "WiFi Gratuito",
+        "description": "Conexión de alta velocidad en todas las áreas para mantenerte conectado."
+      }
+    ]
+  },
+  "COTTAGES": {
+    "title": "Nuestras Cabañas Destacadas",
+    "highlightedText": "Cabañas Destacadas",
+    "subtitle": "Elige la cabaña perfecta para tu estadía",
+    "items": [
+      {
+        "id": 1,
+        "name": "Cabaña Familiar",
+        "description": "Perfecta para familias, con amplio espacio y todas las comodidades necesarias.",
+        "image": "/images/cottage-1.jpg",
+        "amenities": ["4 personas", "2 habitaciones", "Cocina completa", "WiFi"],
+        "cta": {
+          "text": "Consultar",
+          "href": "#contacto"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Cabaña Romántica",
+        "description": "Ideal para parejas que buscan un escape romántico en la naturaleza.",
+        "image": "/images/cottage-2.jpg",
+        "amenities": ["2 personas", "1 habitación", "Jacuzzi", "Vista al río"],
+        "cta": {
+          "text": "Consultar",
+          "href": "#contacto"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Cabaña Deluxe",
+        "description": "La experiencia más completa con servicios premium y vistas espectaculares.",
+        "image": "/images/cottage-3.jpg",
+        "amenities": ["6 personas", "3 habitaciones", "Parrilla", "Deck privado"],
+        "cta": {
+          "text": "Consultar",
+          "href": "#contacto"
+        }
+      }
+    ]
+  },
+  "GALLERY": {
+    "title": "Galería de Imágenes",
+    "highlightedText": "Galería",
+    "subtitle": "Descubre la belleza de nuestro refugio natural",
+    "images": [
+      {
+        "src": "/images/gallery-1.jpg",
+        "alt": "Vista exterior de cabaña con bosque"
+      },
+      {
+        "src": "/images/gallery-2.jpg",
+        "alt": "Interior acogedor con chimenea"
+      },
+      {
+        "src": "/images/gallery-3.jpg",
+        "alt": "Deck con vista al río"
+      },
+      {
+        "src": "/images/hero.jpg",
+        "alt": "Cabaña al atardecer"
+      }
+    ]
+  },
+  "TESTIMONIALS": {
+    "title": "Lo Que Dicen Nuestros Huéspedes",
+    "highlightedText": "Nuestros Huéspedes",
+    "items": [
+      {
+        "id": 1,
+        "name": "María González",
+        "location": "Buenos Aires",
+        "rating": 5,
+        "comment": "Una experiencia increíble. Las cabañas son hermosas y el entorno natural es simplemente mágico."
+      },
+      {
+        "id": 2,
+        "name": "Carlos Rodríguez",
+        "location": "Córdoba",
+        "rating": 5,
+        "comment": "El lugar perfecto para desconectarse. La atención es excelente y las instalaciones superaron expectativas."
+      },
+      {
+        "id": 3,
+        "name": "Ana Martínez",
+        "location": "Rosario",
+        "rating": 5,
+        "comment": "Pasamos una semana maravillosa. Los niños se divirtieron mucho y nosotros pudimos relajarnos completamente."
+      },
+      {
+        "id": 4,
+        "name": "Roberto Silva",
+        "location": "Mendoza",
+        "rating": 5,
+        "comment": "La tranquilidad del lugar es incomparable. Pudimos descansar como hacía años que no lo hacíamos."
+      },
+      {
+        "id": 5,
+        "name": "Laura Fernández",
+        "location": "La Plata",
+        "rating": 5,
+        "comment": "Celebramos nuestro aniversario aquí y fue perfecto. La cabaña romántica tiene una vista espectacular."
+      },
+      {
+        "id": 6,
+        "name": "Diego Morales",
+        "location": "Tucumán",
+        "rating": 5,
+        "comment": "Un lugar mágico para reconectarse con la naturaleza. El servicio personalizado hace la diferencia."
+      },
+      {
+        "id": 7,
+        "name": "Sofía Herrera",
+        "location": "Santa Fe",
+        "rating": 5,
+        "comment": "Las cabañas están impecables y la ubicación es perfecta. Una experiencia que recomiendo totalmente."
+      }
+    ]
+  },
+  "CONTACT": {
+    "title": "Contactanos",
+    "highlightedText": "Contactanos",
+    "subtitle": "Estamos aquí para ayudarte a planificar tu escape perfecto",
+    "info": {
+      "address": "Ruta Provincial 32, Km 15, San Pedro, Buenos Aires",
+      "phone": "+54 9 11 1234-5678",
+      "email": "info@cabanassanpedro.com",
+      "hours": "Lunes a Domingo: 8:00 - 20:00"
+    },
+    "cta": {
+      "text": "Enviar Mensaje",
+      "href": "#"
+    }
+  }
+}

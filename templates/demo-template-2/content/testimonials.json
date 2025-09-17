@@ -1,0 +1,180 @@
+{
+  "HERO": {
+    "title": "Lo que dicen nuestros huéspedes",
+    "subtitle": "",
+    "label": ""
+  },
+  "STATS": {
+    "totalReviews": {
+      "text": "Total reviews",
+      "value": "200+"
+    },
+    "averageRating": {
+      "text": "Rating promedio",
+      "value": "4.7"
+    },
+    "fiveStarPercentage": {
+      "text": "5 Estrellas",
+      "value": "96%"
+    },
+    "repeatCustomers": {
+      "text": "Nos vuelven a elegir",
+      "value": "85%"
+    }
+  },
+  "FEATURED_REVIEWS": [
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Esteban P.",
+      "location": "Capital Federal",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Susana L.",
+      "location": "Rosario",
+      "authorAvatar": "/avatars/placeholder-user.jpg?height=60&width=60",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    }
+  ],
+  "REVIEWS": [
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    },
+    {
+      "text": "El lugar excelente, bien pensado con muchos detalles que hacen una estadia muy linda, 100% recomendable, sus dueños y encargados del lugar siempre muy atentos.",
+      "author": "Mario J.",
+      "location": "Vicente Lopez",
+      "authorAvatar": "/placeholder-user.jpg",
+      "rating": 5,
+      "date": "2024-01-15",
+      "occasion": ""
+    }
+  ],
+  "CALL_TO_ACTION": {
+    "title": "Share Your Experience",
+    "description": "We'd love to hear about your visit to Maddie's Bakery!",
+    "buttons": [
+      {
+        "text": "Leave a Google Review",
+        "link": "https://g.page/maddies-bakery/review",
+        "variant": "primary"
+      },
+      {
+        "text": "Visit Us Today",
+        "link": "/contact",
+        "variant": "outline"
+      }
+    ]
+  }
+}
