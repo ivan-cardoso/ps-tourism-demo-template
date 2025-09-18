@@ -12,17 +12,17 @@ import { SkipLink } from "@/components/ui/SkipLink";
 export default function HomePage() {
   return (
     <>
-      {/* <SkipLink /> */}
+      <SkipLink />
       <Navbar />
-
-      <Hero />
-      <About />
-      <Highlights />
-      <Cottages />
-      {/* <Gallery /> */}
-      <Testimonials />
-      <Contact />
-
+      <main id="main-content">
+        <Hero />
+        <About />
+        <Highlights />
+        <Cottages />
+        {/* <Gallery /> */}
+        <Testimonials />
+        <Contact />
+      </main>
       <Footer />
     </>
   );

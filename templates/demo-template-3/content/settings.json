@@ -35,8 +35,8 @@
       "href": "#inicio"
     },
     {
-      "label": "Sobre Nosotros",
-      "href": "#sobre-nosotros"
+      "label": "Nosotros",
+      "href": "#nosotros"
     },
     {
       "label": "Servicios",
@@ -45,14 +45,6 @@
     {
       "label": "Cabañas",
       "href": "#cabanas"
-    },
-    {
-      "label": "Galería",
-      "href": "#galeria"
-    },
-    {
-      "label": "Testimonios",
-      "href": "#testimonios"
     }
   ],
   "mapEmbedId": "ChIJd8BlQ2BZOpURnLd5_VBgXNg",

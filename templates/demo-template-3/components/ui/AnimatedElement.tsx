@@ -1,30 +1,49 @@
 "use client";
 
-import { cn } from "@/lib/utils";
-import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import type React from "react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { cn } from "@/lib/utils";
+import type { JSX } from "react/jsx-runtime";
 
 interface AnimatedElementProps {
   children: React.ReactNode;
+  className?: string;
   animation?: "fade-up" | "fade-in" | "slide-left" | "slide-right" | "scale-up";
   delay?: number;
-  className?: string;
   as?: keyof JSX.IntrinsicElements;
 }
 
 export function AnimatedElement({
   children,
+  className,
   animation = "fade-up",
   delay = 0,
-  className,
   as: Component = "div",
 }: AnimatedElementProps) {
-  const { ref, isInView } = useScrollAnimation();
+  const { ref, isVisible } = useScrollAnimation();
+
+  const animationClasses = {
+    "fade-up": isVisible
+      ? "opacity-100 translate-y-0"
+      : "opacity-0 translate-y-8",
+    "fade-in": isVisible ? "opacity-100" : "opacity-0",
+    "slide-left": isVisible
+      ? "opacity-100 translate-x-0"
+      : "opacity-0 translate-x-8",
+    "slide-right": isVisible
+      ? "opacity-100 translate-x-0"
+      : "opacity-0 -translate-x-8",
+    "scale-up": isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95",
+  };
 
   return (
     <Component
       ref={ref}
-      className={cn(`animate-${animation}`, isInView && "in-view", className)}
+      className={cn(
+        "transition-all duration-700 ease-out",
+        animationClasses[animation],
+        className
+      )}
       style={{
         transitionDelay: `${delay}ms`,
       }}

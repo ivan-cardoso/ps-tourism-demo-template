@@ -98,7 +98,12 @@
         "name": "Cabaña Familiar",
         "description": "Perfecta para familias, con amplio espacio y todas las comodidades necesarias.",
         "image": "/images/cottage-1.jpg",
-        "amenities": ["4 personas", "2 habitaciones", "Cocina completa", "WiFi"],
+        "amenities": [
+          "4 personas",
+          "2 habitaciones",
+          "Cocina completa",
+          "WiFi"
+        ],
         "cta": {
           "text": "Consultar",
           "href": "#contacto"
@@ -120,7 +125,12 @@
         "name": "Cabaña Deluxe",
         "description": "La experiencia más completa con servicios premium y vistas espectaculares.",
         "image": "/images/cottage-3.jpg",
-        "amenities": ["6 personas", "3 habitaciones", "Parrilla", "Deck privado"],
+        "amenities": [
+          "6 personas",
+          "3 habitaciones",
+          "Parrilla",
+          "Deck privado"
+        ],
         "cta": {
           "text": "Consultar",
           "href": "#contacto"
@@ -199,7 +209,7 @@
       },
       {
         "id": 7,
-        "name": "Sofía Herrera",
+        "name": "Jimena Herrera",
         "location": "Santa Fe",
         "rating": 5,
         "comment": "Las cabañas están impecables y la ubicación es perfecta. Una experiencia que recomiendo totalmente."

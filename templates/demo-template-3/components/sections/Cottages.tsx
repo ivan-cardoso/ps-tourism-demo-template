@@ -28,7 +28,7 @@ export function Cottages() {
   };
 
   return (
-    <SectionWrapper id="cabanas" background="white" pattern>
+    <SectionWrapper id="cabanas" background="neutral" pattern>
       <AnimatedElement animation="fade-up">
         <SectionTitle
           title={COTTAGES.title}
@@ -58,7 +58,7 @@ export function Cottages() {
                 <CardTitle className="text-xl md:text-2xl">
                   {cottage.name}
                 </CardTitle>
-                <p className="text-[#0B2D22]/70 leading-relaxed text-sm md:text-base">
+                <p className="text-dark/70 leading-relaxed text-sm md:text-base">
                   {cottage.description}
                 </p>
               </CardHeader>
@@ -70,9 +70,9 @@ export function Cottages() {
                     return (
                       <div
                         key={amenityIndex}
-                        className="flex items-center gap-2 text-xs md:text-sm text-[#0B2D22]/70"
+                        className="flex items-center gap-2 text-xs md:text-sm text-dark/70"
                       >
-                        <IconComponent className="w-3 h-3 md:w-4 md:h-4 text-[#e9a919] flex-shrink-0" />
+                        <IconComponent className="w-3 h-3 md:w-4 md:h-4 text-accent flex-shrink-0" />
                         <span className="truncate">{amenity}</span>
                       </div>
                     );
@@ -102,10 +102,10 @@ export function Cottages() {
       {/* CTA Section */}
       {/* <AnimatedElement animation="fade-up" delay={600}>
         <div className="text-center mt-12 md:mt-16 p-6 md:p-8 bg-[#F8F4ED] rounded-2xl">
-          <h3 className="font-heading text-xl md:text-2xl font-bold text-[#0B2D22] mb-4">
+          <h3 className="font-heading text-xl md:text-2xl font-bold text-dark mb-4">
             ¿Listo para tu escape perfecto?
           </h3>
-          <p className="text-[#0B2D22]/70 mb-6 max-w-2xl mx-auto text-sm md:text-base">
+          <p className="text-dark/70 mb-6 max-w-2xl mx-auto text-sm md:text-base">
             Contactanos ahora para verificar disponibilidad y hacer tu reserva. Nuestro equipo está listo para ayudarte
             a planificar tu estadía ideal.
           </p>

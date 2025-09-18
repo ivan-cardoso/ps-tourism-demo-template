@@ -1,9 +1,9 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Manrope, Inter, Dancing_Script } from "next/font/google"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+// import { Manrope, Inter, Dancing_Script } from "next/font/google"
+import "./globals.css";
 
-const manrope = Manrope({
+/* const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
   weight: ["400", "600", "700", "800"],
@@ -22,7 +22,7 @@ const dancingScript = Dancing_Script({
   variable: "--font-cursive",
   weight: ["400", "600", "700"],
   display: "swap",
-})
+}) */
 
 export const metadata: Metadata = {
   title: "Cabañas San Pedro - Tu Refugio Natural | Alojamiento en San Pedro",
@@ -65,7 +65,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Cabañas San Pedro - Tu Refugio Natural",
-    description: "Descansá frente al río, rodeado de verde y con la tranquilidad que solo San Pedro puede ofrecer.",
+    description:
+      "Descansá frente al río, rodeado de verde y con la tranquilidad que solo San Pedro puede ofrecer.",
     images: ["/images/hero.jpg"],
   },
   robots: {
@@ -84,14 +85,15 @@ export const metadata: Metadata = {
   verification: {
     google: "google-site-verification-code",
   },
-    generator: 'v0.app'
-}
+  generator: "v0.app",
+};
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LodgingBusiness",
   name: "Cabañas San Pedro",
-  description: "Cabañas completamente equipadas en San Pedro, Buenos Aires. Refugio natural frente al río.",
+  description:
+    "Cabañas completamente equipadas en San Pedro, Buenos Aires. Refugio natural frente al río.",
   url: "https://cabanassanpedro.com",
   telephone: "+54 9 11 1234-5678",
   email: "info@cabanassanpedro.com",
@@ -141,19 +143,25 @@ const jsonLd = {
     ratingValue: "5",
     reviewCount: "150",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={`${manrope.variable} ${inter.variable} ${dancingScript.variable}`}>
+    <html
+      lang="es"
+      // className={`${manrope.variable} ${inter.variable} ${dancingScript.variable}`}
+    >
       <head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body className="antialiased">{children}</body>
     </html>
-  )
+  );
 }
