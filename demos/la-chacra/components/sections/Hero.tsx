@@ -30,7 +30,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero.jpg"
+          src="/images/hero.jpeg"
           alt="Cabaña en entorno natural"
           fill
           className="object-cover"
@@ -88,7 +88,7 @@ export function Hero() {
               </div>
             </AnimatedElement>
 
-            <AnimatedElement animation="fade-up" delay={1000}>
+            {/* <AnimatedElement animation="fade-up" delay={1000}>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl mx-auto">
                 {HERO.stats.map((stat, index) => {
                   const icons = [Star, Users, Award, MapPin];
@@ -102,7 +102,6 @@ export function Hero() {
                       <div className="flex items-center justify-center mb-2">
                         <IconComponent className="w-4 h-4 md:w-5 md:h-5 text-white mr-1" />
                         <div className="text-lg md:text-2xl font-heading font-bold text-white">
-                          {/* <div className="text-lg md:text-2xl font-heading font-bold text-accent"> */}
                           {stat.number}
                         </div>
                       </div>
@@ -113,7 +112,7 @@ export function Hero() {
                   );
                 })}
               </div>
-            </AnimatedElement>
+            </AnimatedElement> */}
           </div>
         </div>
       </div>

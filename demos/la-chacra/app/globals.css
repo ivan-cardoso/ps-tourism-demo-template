@@ -7,18 +7,26 @@
   --color-dark: #2a2d34;
   --color-neutral: #e0c097; */
 
-  --color-primary: #274423;
-  --color-accent: #e9a919;
+  --color-primary: #328e7f;
+  --color-accent: #f2be1c;
   --color-background: #f8f4ed;
   --color-neutral: #ede3d1;
-  --color-dark: #0b2d22;
+  --color-dark: #0a2c25;
 
-  --font-family-heading: var(--font-manrope), ui-sans-serif, system-ui,
+  /* 
+  Blue/green 4dbea2
+  Yellow Orange f2be1c
+  Light Green 87b725
+  Light Blue 6becc6
+  
+  */
+
+  --font-family-heading: var(--font-outfit), ui-sans-serif, system-ui,
     sans-serif;
-  --font-family-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-family-accent: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-family-body: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-family-accent: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
   /* Added cursive font family for highlighted text */
-  --font-family-cursive: var(--font-cursive), cursive;
+  --font-family-cursive: var(--font-outfit), cursive;
 
   --animate-fade-in: fade-in 0.5s ease-in-out;
   --animate-slide-up: slide-up 0.5s ease-out;
@@ -307,19 +315,19 @@
   }
 
   .font-heading {
-    font-family: var(--font-arvo);
+    font-family: var(--font-outfit);
   }
 
   .font-body {
-    font-family: var(--font-lato);
+    font-family: var(--font-outfit);
   }
 
   .font-accent {
-    font-family: var(--font-inter);
+    font-family: var(--font-outfit);
   }
 
   .font-cursive {
-    font-family: var(--font-family-cursive);
+    font-family: var(--font-outfit);
   }
 
   /* Added pattern background utility */

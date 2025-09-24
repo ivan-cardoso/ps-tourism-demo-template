@@ -8,6 +8,7 @@ import { Gallery } from "@/components/sections/Gallery";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
 import { SkipLink } from "@/components/ui/SkipLink";
+import FinalCTA from "@/components/sections/FinalCTA";
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
         {/* <Gallery /> */}
         <Testimonials />
         <Contact />
+        <FinalCTA />
       </main>
       <Footer />
     </>

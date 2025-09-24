@@ -222,21 +222,21 @@ export function Navbar({ variant = "default" }: NavbarProps) {
         >
           {/* Logo */}
 
-          {/* <Link
+          <Link
             href="/"
             className="flex items-center relative justify-center rounded-xl overflow-hidden"
           >
             <Image
-              src="/images/logo.png"
+              src="/images/logo.jpg"
               alt={`${settings.site.name} Logo`}
               width={100}
               height={100}
               className="w-full h-16"
               priority
             />
-          </Link> */}
+          </Link>
 
-          <div className="flex-shrink-0">
+          {/* <div className="flex-shrink-0">
             <Link
               href="#inicio"
               onClick={(e) => {
@@ -248,7 +248,7 @@ export function Navbar({ variant = "default" }: NavbarProps) {
             >
               {settings.site.name}
             </Link>
-          </div>
+          </div> */}
 
           {/* Desktop Navigation */}
           <div className="flex space-x-8 xl:space-x-12">

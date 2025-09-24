@@ -1,0 +1,10 @@
+{
+  "heading": {
+    "family": "Manrope",
+    "weights": [600, 700, 800]
+  },
+  "body": {
+    "family": "Inter",
+    "weights": [400, 500, 600]
+  }
+}

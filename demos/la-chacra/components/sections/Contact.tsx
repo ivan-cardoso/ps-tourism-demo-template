@@ -6,6 +6,7 @@ import { AnimatedElement } from "@/components/ui/AnimatedElement";
 import { Button } from "@/components/ui/Button";
 import { getHomeContent, getSettings } from "@/utils/contentMapper";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import Image from "next/image";
 
 export function Contact() {
   const { CONTACT } = getHomeContent();
@@ -94,16 +95,14 @@ export function Contact() {
         </AnimatedElement>
 
         {/* Map */}
-        <AnimatedElement animation="slide-left" className="order-1 lg:order-2">
+        {/* <AnimatedElement animation="slide-left" className="order-1 lg:order-2">
           <div className="bg-neutral/30 rounded-2xl p-8 aspect-auto min-h-92 lg:min-h-auto lg:aspect-video flex items-center justify-center">
             <div className="text-center">
               <MapPin className="w-16 h-16 text-accent mx-auto mb-4" />
               <h3 className="font-heading text-xl font-semibold text-dark mb-2">
                 Ubicación
               </h3>
-              {/* <p className="text-dark/70 mb-4">
-                Nos encontramos en San Pedro, Buenos Aires
-              </p> */}
+
               <Button
                 variant="primary"
                 onClick={() => {
@@ -116,6 +115,39 @@ export function Contact() {
               >
                 Ver en Google Maps
               </Button>
+            </div>
+          </div>
+        </AnimatedElement> */}
+
+        <AnimatedElement animation="scale-up" className="order-1 lg:order-2">
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src={"/images/map.png"}
+              alt="Maddie, founder of Maddie's Bakery"
+              fill
+              className="object-cover"
+            />
+
+            <div className="bg-background/40 flex items-center justify-center absolute top-0 left-0 w-full h-full">
+              <div className="text-center">
+                <MapPin className="w-12 h-12 text-dark mx-auto mb-4" />
+                <h3 className="font-heading text-xl font-semibold text-dark mb-2">
+                  Ubicación
+                </h3>
+
+                <Button
+                  variant="primary"
+                  onClick={() => {
+                    const address = encodeURIComponent(CONTACT.info.address);
+                    window.open(
+                      `https://maps.google.com/maps?q=${address}`,
+                      "_blank"
+                    );
+                  }}
+                >
+                  Ver en Google Maps
+                </Button>
+              </div>
             </div>
           </div>
         </AnimatedElement>

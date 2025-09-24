@@ -5,7 +5,15 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 import { AnimatedElement } from "@/components/ui/AnimatedElement";
 import { Button } from "@/components/ui/Button";
 import { getHomeContent } from "@/utils/contentMapper";
-import { Wifi, Coffee, Shirt, Clock } from "lucide-react";
+import {
+  Wifi,
+  Coffee,
+  Shirt,
+  Clock,
+  Bike,
+  Waves,
+  HeartPlusIcon,
+} from "lucide-react";
 
 export function Highlights() {
   const { HIGHLIGHTS } = getHomeContent();
@@ -15,6 +23,9 @@ export function Highlights() {
     Coffee,
     Shirt,
     Clock,
+    HeartPlusIcon,
+    Bike,
+    Waves,
   };
 
   return (

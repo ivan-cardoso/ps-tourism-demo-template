@@ -28,7 +28,7 @@ export function Cottages() {
   };
 
   return (
-    <SectionWrapper id="cabanas" background="neutral" pattern>
+    <SectionWrapper id="cabanas" background="neutral">
       <AnimatedElement animation="fade-up">
         <SectionTitle
           title={COTTAGES.title}
@@ -72,7 +72,7 @@ export function Cottages() {
                         key={amenityIndex}
                         className="flex items-center gap-2 text-xs md:text-sm text-dark/70"
                       >
-                        <IconComponent className="w-3 h-3 md:w-4 md:h-4 text-accent flex-shrink-0" />
+                        <IconComponent className="w-4 h-4 md:w-5 md:h-5 text-accent flex-shrink-0" />
                         <span className="truncate">{amenity}</span>
                       </div>
                     );

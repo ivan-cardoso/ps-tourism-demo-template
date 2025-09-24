@@ -1,0 +1,61 @@
+{
+  "site": {
+    "name": "La Chacra Hotel de Campo & Spa",
+    "tagline": "La Chacra Hotel de Campo & Spa",
+    "description": "Estás necesitando un descanso? Aquí es el lugar ideal, en la Chacra Hotel y Spa",
+    "logo": "/images/logo.png"
+  },
+  "contact": {
+    "phone": "+54 9 3329 30-9619",
+    "email": "info@lachacrasanpedro.com",
+    "address": "Camino al Aerodomo de San Pedro a 300mts de ruta 191, San Pedro (Buenos Aires), Argentina",
+    "coordinates": {
+      "lat": -33.6792,
+      "lng": -59.6681
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/laChacraSpa",
+    "instagram": "https://www.instagram.com/lachacra_spa/",
+    "google": "https://g.page/lachacra_spa"
+  },
+  "hours": {
+    "monday": "8:00 - 20:00",
+    "tuesday": "8:00 - 20:00",
+    "wednesday": "8:00 - 20:00",
+    "thursday": "8:00 - 20:00",
+    "friday": "8:00 - 20:00",
+    "saturday": "8:00 - 20:00",
+    "sunday": "8:00 - 20:00",
+    "display": "Lunes a Domingo: 8:00 - 20:00"
+  },
+  "navigation": [
+    {
+      "label": "Inicio",
+      "href": "#inicio"
+    },
+    {
+      "label": "Nosotros",
+      "href": "#nosotros"
+    },
+    {
+      "label": "Servicios",
+      "href": "#servicios"
+    },
+    {
+      "label": "Habitaciones",
+      "href": "#habitaciones"
+    }
+  ],
+  "mapEmbedId": "ChIJd8BlQ2BZOpURnLd5_VBgXNg",
+  "footer": {
+    "socialTitle": "Síguenos",
+    "contactTitle": "Contacto",
+    "copyright": "Todos los derechos reservados."
+  },
+  "seo": {
+    "title": "La Chacra Hotel de Campo & Spa",
+    "description": "Camino al Aerodomo de San Pedro a 300mts de ruta 191, San Pedro (Buenos Aires), Argentina",
+    "keywords": "Veni a visitarnos"
+  }
+}
